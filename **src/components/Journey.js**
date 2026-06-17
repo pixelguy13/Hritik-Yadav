@@ -1,0 +1,18 @@
+import React from 'react';
+
+const Journey = () => {
+  return (
+    <div className="px-8 py-16 bg-gray-100 text-black">
+      <h2 className="text-4xl font-bold">My Journey</h2>
+      <ul className="mt-4">
+        <li>📅 Starting Medical Studies: 2024</li>
+        <li>📅 Beginning Teaching Journey: 2026</li>
+        <li>📅 Running MAT Classes: 2026</li>
+        <li>📅 Creating Online Content: 2023</li>
+        <li>📅 Focus on Personal Growth and Learning</li>
+      </ul>
+    </div>
+  );
+};
+
+export default Journey;
